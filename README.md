@@ -3,5 +3,5 @@ Objetivo: app móvel para alertas de queimadas, inundações, desmatamento e rel
 tempo real.
 
 Matéria: Integração e Entrega Contínua!!!!
-4 Semestre de DSM
+4 Semestre de DSM 💻
  
