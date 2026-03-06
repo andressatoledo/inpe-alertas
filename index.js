@@ -1,1 +1,2 @@
-console.log("Aplicativo de Monitoramento de Eventos Climáticos - INPE");
+const x = 10;
+console.log(x);
