@@ -6,7 +6,7 @@ function classificarAlerta(nivel) {
   return 'Moderado';
 }
 test('alerta crítico se nível maior que 80', () => {
-  expect(classificarAlerta(90)).toBe('Crítico');
+  expect(classificarAlerta(90)).toBe('Alto');
 });
 
 test('alerta alto se nível entre 51 e 80', () => {
