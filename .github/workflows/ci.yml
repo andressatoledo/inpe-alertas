@@ -1,4 +1,4 @@
-name: CI com ESLint
+name: CI com ESLint e Testes
 
 on:
   push:
@@ -7,24 +7,24 @@ on:
     branches: [dev]
 
 jobs:
-  lint:
+  lint-and-test:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Baixar o código
       - name: Checkout do repositório
         uses: actions/checkout@v4
 
-      # 2. Instalar Node.js
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      # 3. Instalar dependências
       - name: Instalar dependências
         run: npm install
 
-      # 4. Rodar ESLint
       - name: Rodar ESLint
         run: npx eslint .
+
+      - name: Rodar Jest
+        run: npm test
+
