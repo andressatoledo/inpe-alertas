@@ -13,6 +13,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+      "test": "jest"
+  },
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/andressatoledo/inpe-alertas/issues"
@@ -22,6 +25,7 @@
     "@eslint/js": "^9.39.4",
     "eslint": "^9.39.4",
     "globals": "^17.4.0",
+    "jest": "^30.3.0",
     "prettier": "^3.8.1",
     "typescript-eslint": "^8.56.1"
   }
