@@ -28,3 +28,8 @@ jobs:
       - name: Rodar Jest
         run: npm test
 
+      - name: Gerar cobertura de testes
+        run: npm run test:coverage
+
+      - name: Upload cobertura para Codecov
+        uses: codecov/codecov-action@v3
