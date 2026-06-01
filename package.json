@@ -4,6 +4,8 @@
   "description": "Objetivo: app móvel para alertas de queimadas, inundações, desmatamento e relatos da população em\r tempo real.",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "jest",
     "test:coverage": "jest --coverage"
   },
@@ -29,12 +31,12 @@
     "typescript-eslint": "^8.56.1"
   },
   "overrides": {
-  "codecov": {
-    "js-yaml": "^3.14.2",
-    "teeny-request": {
-      "uuid": "^11.1.1"
-    }
-  },
-  "@tootallnate/once": "^2.0.1"
-}
+    "codecov": {
+      "js-yaml": "^3.14.2",
+      "teeny-request": {
+        "uuid": "^11.1.1"
+      }
+    },
+    "@tootallnate/once": "^2.0.1"
+  }
 }
