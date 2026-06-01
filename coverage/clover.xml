@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1778525915605" clover="3.2.0">
-  <project timestamp="1778525915605" name="All files">
+<coverage generated="1780339343760" clover="3.2.0">
+  <project timestamp="1780339343760" name="All files">
     <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="14" coveredelements="14" complexity="0" loc="7" ncloc="7" packages="1" files="1" classes="1"/>
     <file name="alertas.js" path="D:\Andressa Toledo\Faculdade\4 SEMESTRE\Integração e Entrega Contínua\inpe-alertas\src\alertas.js">
       <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
